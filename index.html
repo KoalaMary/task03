@@ -1,11 +1,251 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Maria Baeva">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Sans+Narrow&amp;subset=latin,cyrillic"
+          rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<main class="container">
+    <div class="personal-information">
+        <div class="personal-information__personal-photo">
+            <img src="images/Photo.png" alt="photo"/>
+        </div>
+        <div class="personal-information__about-myself">
+            <div class="personal-information__about-myself__content">
+                <h2 class="personal-information__about-myself__content__title">Обо мне</h2>
+                <p class="personal-information__about-myself__content__paragraph">
+                    Привет! Меня зовут Иван Белобородов. Я родился и вырос в
+                    Ижевске, столице Удмуртской Республики. Последние
+                    несколько лет занимаюсь проектированием и дизайном
+                    мобильных приложений на базе iOS и Android. В данный
+                    момент живу в Москве и ищу постоянное место работы.
+                </p>
+                <p class="personal-information__about-myself__content__paragraph">
+                    Испытываю страсть к девайсам, имеющим touch-интерфейс,
+                    классическим мотоциклам, немецкому пиву, анлийской
+                    музыке и французскому кино.
+                </p>
+                <ul class="personal-information__about-myself__content__contacts-list">
+                    <li class="personal-information__about-myself__content__contacts-list__item anchor"><a
+                            href="#">beliv.net</a></li>
+                    <li class="personal-information__about-myself__content__contacts-list__item facebook"><a href="#">ivan.beloborodov</a>
+                    </li>
+                    <li class="personal-information__about-myself__content__contacts-list__item twitter"><a href="#">@beliv</a>
+                    </li>
+                    <li class="personal-information__about-myself__content__contacts-list__item dribble"><a href="#">dribble.com/beliv</a>
+                    </li>
+                    <li class="personal-information__about-myself__content__contacts-list__item revision"><a href="#">revision.ru/a/beliv/</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="personal-information__experience">
+            <h2 class="personal-information__experience__title">Опыт работы</h2>
+            <ul class="personal-information__experience__job-list">
+                <li class="personal-information__experience__job-list__job-item">
+                    <p class="personal-information__experience__job-list__job-item__job-title">Центр Высоких
+                        Технологий</p>
+                    <p class="personal-information__experience__job-list__job-item__job-name">UX Дизайнер</p>
+                    <p class="personal-information__experience__job-list__job-item__job-date">Январь 2011 - июль
+                        2013</p>
+                </li>
+                <li class="personal-information__experience__job-list__job-item">
+                    <p class="personal-information__experience__job-list__job-item__job-title">ООО «БИТ-Мастер»</p>
+                    <p class="personal-information__experience__job-list__job-item__job-name">Дизайнер мобильных
+                        интерфейсов</p>
+                    <p class="personal-information__experience__job-list__job-item__job-date">Август 2012 - июнь 2013
+                        (внештатно)</dp
+                </li>
+                <li class="personal-information__experience__job-list__job-item">
+                    <p class="personal-information__experience__job-list__job-item__job-title">Fastdev</p>
+                    <p class="personal-information__experience__job-list__job-item__job-name">Дизайнер мобильных
+                        интерфейсов</p>
+                    <p class="personal-information__experience__job-list__job-item__job-date">Апрель 2012 - июнь 2012
+                        (внештатно)</p>
+                </li>
+                <li class="personal-information__experience__job-list__job-item">
+                    <p class="personal-information__experience__job-list__job-item__job-title">ООО «Танго Телеком»</p>
+                    <p class="personal-information__experience__job-list__job-item__job-name">Дизайнер веб и мобильных
+                        интерфейсов</p>
+                    <p class="personal-information__experience__job-list__job-item__job-date">Сентябрь 2010-январь 2011
+                        (внештатно)</p>
+                </li>
+                <li class="personal-information__experience__job-list__job-item--first-job">
+                    <p class="personal-information__experience__job-list__job-item__job-title--first-job">Фрилансер</p>
+                    <p class="personal-information__experience__job-list__job-item__job-name">Веб-дизайнер</p>
+                    <p class="personal-information__experience__job-list__job-item__job-date">Март 2009 - январь
+                        2011</p>
+                </li>
+            </ul>
+        </div>
+    </div>
 
+    <div class="skills">
+        <h2 class="skills__title title-underlined">Навыки</h2>
+        <section class="skills__diagram-list">
+            <div class="skills__diagram-list__diagram-item">
+                <p class="skills__diagram-list__diagram-item__title">User Experience</p>
+                <span class="skills__diagram-list__diagram-item__since">с 2010 года</span>
+                <div class="skills__diagram-list__diagram-item__percentage">
+                    <svg style="width: 200px; height: 200px">
+                        <circle cx="100" cy="100" r="94" stroke="#ececec" fill="none" style="stroke-width: 6;"></circle>
+                        <path d="M100,6 A94,94 0 1,1 67,187.6" stroke="#1ba0e1" fill="none"
+                              style="stroke-width: 6;"></path>
+                    </svg>
+                    <p class="skills__diagram-list__diagram-item__percentage__number">55<span>%</span></p>
+                </div>
+            </div>
+            <div class="skills__diagram-list__diagram-item">
+                <p class="skills__diagram-list__diagram-item__title">Дизайн мобильных интерфейсов</p>
+                <span class="skills__diagram-list__diagram-item__since">С 2011 года</span>
+                <div class="skills__diagram-list__diagram-item__percentage">
+                    <svg style="width: 200px; height: 200px">
+                        <circle cx="100" cy="100" r="94" stroke="#ececec" fill="none" style="stroke-width: 6;"></circle>
+                        <path d="M100,6 A94,94 0 1,1 28,40" stroke="#1ba0e1" fill="none"
+                              style="stroke-width: 6;"></path>
+                    </svg>
+                    <p class="skills__diagram-list__diagram-item__percentage__number">80<span>%</span></p>
+                </div>
+            </div>
+            <div class="skills__diagram-list__diagram-item">
+                <p class="skills__diagram-list__diagram-item__title">Веб-интерфейсы</p>
+                <span class="skills__diagram-list__diagram-item__since">С 2010 года</span>
+                <div class="skills__diagram-list__diagram-item__percentage">
+                    <svg style="width: 200px; height: 200px">
+                        <circle cx="100" cy="100" r="94" stroke="#ececec" fill="none" style="stroke-width: 6;"></circle>
+                        <path d="M100,6 A94,94 0 1,1 40,172" stroke="#1ba0e1" fill="none"
+                              style="stroke-width: 6;"></path>
+                    </svg>
+                    <p class="skills__diagram-list__diagram-item__percentage__number">60<span>%</span></p>
+                </div>
+            </div>
+        </section>
+        <ul class="skills__simple-list">
+            <li class="skills__simple-list__item">Базовые знания HTML & CSS</li>
+            <li class="skills__simple-list__item">Клубный фотограф</li>
+            <li class="skills__simple-list__item">Интерфейсы для Smart TV</li>
+            <li class="skills__simple-list__item">7 проектов в сфере такси за 3 года</li>
+        </ul>
+    </div>
+
+    <div class="tools">
+        <h2 class="tools__title title-underlined">Инструменты</h2>
+        <ul class="tools__tools-progress">
+            <li class="tools__tools-progress__progress-line">
+                <div class="tools__tools-progress__progress-line__color-line progress-blue" style="width: 90%;">
+                    <span>Photoshop</span>
+                </div>
+            </li>
+            <li class="tools__tools-progress__progress-line">
+                <div class="tools__tools-progress__progress-line__color-line progress-green" style="width: 70%;">
+                    <span>Illustrator</span>
+                </div>
+            </li>
+            <li class="tools__tools-progress__progress-line">
+                <div class="tools__tools-progress__progress-line__color-line progress-pink" style="width: 40%;">
+                    <span>Indesign</span>
+                </div>
+            </li>
+            <li class="tools__tools-progress__progress-line">
+                <div class="tools__tools-progress__progress-line__color-line progress-turquoise" style="width: 15%;">
+                    <span>Sketch</span>
+                </div>
+            </li>
+            <li class="tools__tools-progress__progress-line">
+                <div class="tools__tools-progress__progress-line__color-line progress-orange" style="width: 50%;">
+                    <span>Axure</span>
+                </div>
+            </li>
+        </ul>
+        <div class="tools__activity">
+            <h3 class="tools__activity__title">Активность</h3>
+            <ul class="tools__activity__activity-list">
+                <li class="tools__activity__activity-list__item">
+                    <p class="tools__activity__activity-list__item__activity-name">Balsamiq Mockups</p>
+                    <span class="tools__activity__activity-list__item__activity-date">август 2013</span>
+                </li>
+                <li class="tools__activity__activity-list__item">
+                    <p class="tools__activity__activity-list__item__activity-name">Diablo III</p>
+                    <span class="tools__activity__activity-list__item__activity-date">29 сентября</span>
+                </li>
+                <li class="tools__activity__activity-list__item">
+                    <p class="tools__activity__activity-list__item__activity-name">iA Writer</p>
+                    <span class="tools__activity__activity-list__item__activity-date">Позавчера</span>
+                </li>
+                <li class="tools__activity__activity-list__item">
+                    <p class="tools__activity__activity-list__item__activity-name">Lightroom 4</p>
+                    <span class="tools__activity__activity-list__item__activity-date">Сентябрь 2013</span>
+                </li>
+                <li class="tools__activity__activity-list__item">
+                    <p class="tools__activity__activity-list__item__activity-name">Skala Preview & View</p>
+                    <span class="tools__activity__activity-list__item__activity-date">Вчера</span>
+                </li>
+                <li class="tools__activity__activity-list__item">
+                    <p class="tools__activity__activity-list__item__activity-name">Xcode</p>
+                    <span class="tools__activity__activity-list__item__activity-date">Май 2013</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="last-projects">
+        <h2 class="last-projects__title title-underlined">Последние проекты</h2>
+        <ul class="last-projects__list">
+            <li class="last-projects__list__item">
+                <p class="last-projects__list__item__project-name">TaxiCaller</p>
+                <span class="last-projects__list__item__date">Декабрь 2012 - март 2013</span>
+                <img class="last-projects__list__item__image" src="images/project1.png" alt="TaxiCaller"/>
+            </li>
+            <li class="last-projects__list__item">
+                <p class="last-projects__list__item__project-name">Check, please!</p>
+                <span class="last-projects__list__item__date">Май 2013 - ...</span>
+                <img class="last-projects__list__item__image" src="images/project2.png" alt="Check, please!"/>
+            </li>
+            <li class="last-projects__list__item">
+                <p class="last-projects__list__item__project-name">Izhevsk.ru</p>
+                <span class="last-projects__list__item__date">Ноябрь 2012 - февраль 2013</span>
+                <img class="last-projects__list__item__image" src="images/project3.png" alt="Izhevsk.ru"/>
+            </li>
+            <li class="last-projects__list__item">
+                <p class="last-projects__list__item__project-name pirate-image">RP.com</p>
+                <span class="last-projects__list__item__date">Июнь 2012 - март 2013</span>
+                <img class="last-projects__list__item__image" src="images/project4.png" alt="RP.com"/>
+            </li>
+        </ul>
+    </div>
+
+    <div class="interests">
+        <h2 class="interests__title title-underlined">Интересы</h2>
+        <ul class="interests__list">
+            <li class="interests__list__item">
+                <h6 class="interests__list__item__interest-name">Музыка</h6>
+                <img class="interests__list__item__interest-image" src="images/music.png" alt="music"/>
+            </li>
+            <li class="interests__list__item">
+                <h6 class="interests__list__item__interest-name">Мотоциклы</h6>
+                <img class="interests__list__item__interest-image" src="images/Bike.png" alt="bike"/>
+            </li>
+            <li class="interests__list__item">
+                <h6 class="interests__list__item__interest-name">Кулинария</h6>
+                <img class="interests__list__item__interest-image" src="images/cooking.png" alt="cooking"/>
+            </li>
+            <li class="interests__list__item">
+                <h6 class="interests__list__item__interest-name">Велоспорт</h6>
+                <img class="interests__list__item__interest-image" src="images/bicycle.png" alt="bicycle"/>
+            </li>
+        </ul>
+    </div>
+
+    <div class="end">
+        <p class="end__title">That’s all, folks!</p>
+        <img class="end__image" src="images/Bill.png" alt="Bill"/>
+    </div>
+</main>
 </body>
 </html>
